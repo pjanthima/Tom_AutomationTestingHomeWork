@@ -666,15 +666,7 @@ public class automationTestingHomeWork_HomePage {
 		Assert.assertTrue(numArrivals == 3);
 		System.out.println("TEST PASSED");
 
-//		for (WebElement indexOfArrivals : eachArrivals) {
-//			String print = indexOfArrivals.getText();
-//			System.out.println("--------\n" + print + "\n-----------");
-//		}
-//		if (numArrivals == 3) {
-//			System.out.println("Webpage has three arrivals");
-//		} else {
-//			System.out.println("Webpage does not have three arrivals");
-//		}
+
 	}
 
 	public void verifyThreeSlider() {
@@ -683,11 +675,7 @@ public class automationTestingHomeWork_HomePage {
 		System.out.println("Number of slider are " + numOfSlider);
 		Assert.assertTrue(numOfSlider == 3);
 		System.out.println("TEST PASSED");
-//		if (numOfSlider == 3) {
-//			System.out.println("The webpage has three sliders");
-//		} else {
-//			System.out.println("The webpage doesnt have three sliders");
-//		}
+
 	}
 
 	public void clickShopMenu() {
